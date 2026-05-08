@@ -2,11 +2,13 @@
 
 Projeto desenvolvido para a disciplina de **Arquitetura e Projeto de Software**.
 
-## Descrição
-
 Este projeto demonstra a implementação do padrão estrutural **Facade**, que tem como objetivo fornecer uma interface simplificada para um conjunto de interfaces de um subsistema, tornando o subsistema mais fácil de usar.
 
 O padrão foi aplicado para modelar um sistema de **checkout de pedidos**. O `Cliente` não precisa conhecer os subsistemas de `Estoque`, `Pagamento` e `Entrega` — basta chamar `finalizarPedido()`, que delega toda a verificação à `PedidoFacade`.
+
+## Diagrama de Classes:
+
+<img width="1107" height="966" alt="Image" src="https://github.com/user-attachments/assets/6f7012d0-c601-4ad9-9d36-2a203bb986d1" />
 
 ## Estrutura
 
